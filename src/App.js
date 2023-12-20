@@ -13,7 +13,7 @@ function App() {
 
   const [showIncomplete, setShowInComplete] = useState(true);
 
-  const [newTask, setNewTask] = useState("123");
+  const [newTask, setNewTask] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
